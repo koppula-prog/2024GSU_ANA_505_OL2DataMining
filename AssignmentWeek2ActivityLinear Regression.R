@@ -30,7 +30,6 @@ print(testset)
 # Simple linear regression model for training set
 lm.r <- lm(formula = Salary ~ Years_Exp, data = trainingset)
 
-#
 
 # Summary of the linear regression model
 summary(lm.r)
